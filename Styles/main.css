@@ -1,7 +1,6 @@
 * {
     font-family: 'Nunito', sans-serif;}
 
-
 /* nav-bar */
 header{
     top:0;
@@ -69,6 +68,11 @@ main{
     flex-direction:row;
     padding-top:0.5%;
     margin-bottom:10%;
+}
+@media screen and (max-width:950px){
+    main{
+        flex-direction:column;
+    }
 }
 /* <--MAIN CONTAINER--> */
 
