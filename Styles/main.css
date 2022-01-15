@@ -150,14 +150,7 @@ main{
 .medium{
     height: 25vh;
 }
-#div-1{
-    filter: grayscale(70%);
-    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
-}
-#div-1{
-    filter: grayscale(70%);
-    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
-}
+
 #div-1{
     filter: grayscale(70%);
     background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
