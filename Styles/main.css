@@ -78,7 +78,7 @@ main{
 
 .main-container{
     margin-top: 70px;
-    width: 42%;
+    width: 45%;
     height:600px;
     border:2px soild black;
     display:flex;
@@ -108,7 +108,7 @@ main{
 
 .row div{
     padding:1rem;
-    width:100px;
+    width:120px;
     height:26vh;
     background-color:whitesmoke;
     border-radius: 20px;
@@ -149,6 +149,93 @@ main{
 }
 .medium{
     height: 25vh;
+}
+#div-1{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-1{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-1{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-2{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-3{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-4{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-5{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-6{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-7{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-8{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-9{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-10{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-11{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-12{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-13{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-14{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-15{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-16{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-17{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-18{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}
+#div-19{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
+}#div-20{
+    filter: grayscale(70%);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/22/16/07/elephants-2776143__340.jpg');
 }
 /* <--MAIN CONTAINER END---> */
 
