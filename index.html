@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>WeTalks</title>
     <link rel="stylesheet" type="text/css" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/pop.css">
 </head>
 
 <body>
@@ -22,29 +23,20 @@
             </nav>
         </div>
     </header>
+
+    <section>
     <div class="popup">
         <div class="popup-overlay"></div>
         <div class="main-popup">
             <div class="popup-content">
                 <span class="close-btn">&times;</span>
-                <div id="contact">
-                    <img src="images\conatct.png" height="450px">
-                    <div id="form">
-                        <div id="main">
-                            <div id="box">
-                                <input type="text" placeholder="name">
-                                <input type="email" placeholder="email">
-                            </div>
-                            <input type="text" placeholder="subject" id="subject">
-                            <textarea placeholder="message" id="message"></textarea>
-                            <a href="#" id="btn">Send</a>
-                        </div>
-                    </div>
-                </div>
+                <button id="pop-button" type="button" class="open-btn2">GET STARTED!</button>
+
             </div>
         </div>
     </div>
-    <script src="pop-slide.js"></script>
+    </section>
+
     <main id="main">
         <section id="main-container" class="main-container">
             <div id="row1" class="row">
@@ -210,6 +202,7 @@
         </div>
 
     </footer>
+    <script src="JavaScript/pop-slide.js"></script>
     <script type="text/javascript" src="JavaScript/script.js"></script>
     <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
 </body>
