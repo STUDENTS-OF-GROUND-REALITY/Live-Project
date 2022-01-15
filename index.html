@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>WeTalks</title>
@@ -16,11 +17,34 @@
                     <li><a>Portfolio</a></li>
                     <li><a>Review</a></li>
                     <li><a>Contact</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a class="open-btn">Login</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <div class="popup">
+        <div class="popup-overlay"></div>
+        <div class="main-popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <div id="contact">
+                    <img src="images\conatct.png" height="450px">
+                    <div id="form">
+                        <div id="main">
+                            <div id="box">
+                                <input type="text" placeholder="name">
+                                <input type="email" placeholder="email">
+                            </div>
+                            <input type="text" placeholder="subject" id="subject">
+                            <textarea placeholder="message" id="message"></textarea>
+                            <a href="#" id="btn">Send</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="pop-slide.js"></script>
     <main id="main">
         <section id="main-container" class="main-container">
             <div id="row1" class="row">
@@ -93,13 +117,10 @@
             </div>
         </section>
         <aside class="background-img">
-            <lord-icon
-                    src="https://cdn.lordicon.com/hpxruznz.json"
-                    trigger="loop"
-                    colors="primary:#ffffff,secondary:#08a88a"
-                    style="width:250px;height:150px;">
+            <lord-icon src="https://cdn.lordicon.com/hpxruznz.json" trigger="loop"
+                colors="primary:#ffffff,secondary:#08a88a" style="width:250px;height:150px;">
             </lord-icon>
-            <h1 class="text typing" id="welcome" >Welcome to One of the Largest One-One Interaction Community!!</h1>
+            <h1 class="text typing" id="welcome">Welcome to One of the Largest One-One Interaction Community!!</h1>
         </aside>
     </main>
 
@@ -107,29 +128,25 @@
     <h4>CATEGORIES</h4>
     <section id="categories">
         <div class="container" onclick="location.href='CategoryPage1.html'">
-            <img src="https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159__340.jpg"
-                 alt="Avatar" class="image">
+            <img src="https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159__340.jpg" alt="Avatar" class="image">
             <div class="overlay">
                 <div class="textInfo">Hello World</div>
             </div>
         </div>
         <div class="container">
-            <img src="https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159__340.jpg"
-                 alt="Avatar" class="image">
+            <img src="https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159__340.jpg" alt="Avatar" class="image">
             <div class="overlay">
                 <div class="textInfo">Hello World</div>
             </div>
         </div>
         <div class="container">
-            <img src="https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159__340.jpg"
-                 alt="Avatar" class="image">
+            <img src="https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159__340.jpg" alt="Avatar" class="image">
             <div class="overlay">
                 <div class="textInfo">Hello World</div>
             </div>
         </div>
         <div class="container">
-            <img src="https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159__340.jpg"
-                 alt="Avatar" class="image">
+            <img src="https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159__340.jpg" alt="Avatar" class="image">
             <div class="overlay">
                 <div class="textInfo">Hello World</div>
             </div>
@@ -137,7 +154,7 @@
     </section>
 
 
-<!--FOOTER SECTION-->
+    <!--FOOTER SECTION-->
     <footer id="footer">
 
         <div class="fdiv">
@@ -173,9 +190,9 @@
             <p class="fabout">Chandigarh, India</p>
             <div id="img">
                 <a href="#"><img src="images\insta.png"></a>
-                <a href="#"><img src="images\fb.png" ></a>
+                <a href="#"><img src="images\fb.png"></a>
                 <a href="#"><img src="images\twiter.png"></a>
-                <a href="#"><img src="images\lindin.png" ></a>
+                <a href="#"><img src="images\lindin.png"></a>
             </div>
         </div>
 
@@ -196,4 +213,5 @@
     <script type="text/javascript" src="JavaScript/script.js"></script>
     <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
 </body>
+
 </html>
