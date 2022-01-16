@@ -193,23 +193,23 @@ aside{
   /* border: 2px solid black;    */
 }
 
-.row #div main{
+.row div main{
     display: flex;
     justify-content: space-around;
 }
-.row #div img{
+.row div img{
     border-radius: 50%;
     height: 4rem;
     margin-right: 10px;
 }
-.row #div a{
+.row div a{
     text-decoration: none;
     background-color: black;
     color: white;
     padding: 0.32rem;
     border-radius: 5px;
 }
-.row #div nav{
+.row div nav{
     display: flex;
     justify-content: space-around;
     border-top: 1px solid dimgray;
